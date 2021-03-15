@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game:rock paper scissor</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Game of Rock Paper Scissors</h1>
+    </header>
+         <div class="container">
+            <header class="header">
+              <h1>Rock Paper Scissors</h1>
+              <button id="restart" class="restart-btn">Restart Game</button>
+              <div id="score" class="score">
+                <p>Player: 0</p>
+                <p>Computer: 0</p>
+              </div>
+            </header>
+            <h2>Make Your Selection</h2>
+            <div class="choices">
+                <div>
+              <i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+              <img src="Capture.PNG" alt="">
+            </div>
+            <div>
+              <i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+              <img src="Captureee.PNG" alt="">
+            </div>
+            <div>
+              <i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+              <img src="Capturee.PNG" alt="">
+            </div>
+          </div>
+      
+          <!-- Modal -->
+          <div class="modal">
+            <div id="result" class="modal-content"></div>
+          </div>
+      <p id ="action-message">please click on the circle to play the game</p>  
+      <script src="app.js"></script>
+</body>
+</html>
