@@ -177,14 +177,21 @@ body {
 }
 
 
-@media (max-width: 700px) {
-  .choice {
+/* @media (max-width: 700px) {
+  .choices {
     font-size: 110px;
+    display:'block';
   }
 }
 
 @media (max-width: 500px) {
-  .choice {
+  .choices {
     font-size: 80px;
+  }
+} */
+
+@media (max-width: 700px) {
+  .choices{
+    display: inline;
   }
 }
